@@ -1,0 +1,141 @@
+.headers 
+{
+	 /*Here I am formatting the headers by changing the font to arial and making the text center aligned*/
+	 text-align: center; 
+	 font-family: arial;
+}
+
+body 
+{
+	/*Here I am selecting the font, and making the background repeat the image (because it is a seamless image) and making the background fixed
+	so it won't move*/
+	font-family: Arial, Helvetica, sans-serif;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+		
+.main-content 
+{
+	/*Here I am selecting the font, and adding the the light blue background in the middle of the webpage*/
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 50%;
+	margin: auto; 
+	background: #cce7fc;
+	padding: 50px;
+	font-size: 100%;
+}
+
+.paragraph 
+{
+	/*Here I am selecting the font and also changing the font size*/
+	font-family: Times New Roman;
+	font-size: 18px;
+}
+
+.background 
+{
+	/*Here I am selecting a background image to use*/
+	background: url("badimage.jpg");
+}
+
+.frame
+{
+	/*Here I am editing the frame for the video*/
+	width: 560px;
+	height: 315px;
+}
+
+.menu
+{
+	/*Here I am formatting the menu*/
+	overflow: hidden;
+	background-color: #333;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+
+.menu a 
+{
+	/*Here I am formatting the menu*/
+	float: left;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.dropdown 
+{
+	/*Here I am formatting the dropdown part of the menu*/
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .tab 
+{	
+	/*Here I am formatting the tabs in the dropdown menu*/
+	background-color: #333;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn 
+{	
+	/*Here I am creating the "fade" effect of the tabs when you hover over it*/
+	background-color: #555;
+	transition: all 0.2s ease-in-out;
+}
+
+.dropdown-content 
+{
+	/*This changes the background colour of the dropdown*/
+	display: none;
+	position: fixed;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	transition: all 0.2s ease-in-out;
+}
+
+.dropdown-content a 
+{
+	/*This formats the text in the tabs of the dropdown menu*/
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover 
+{
+	/*When mouse is over the dropdown content which is the anchor element (<a>) */
+	background-color: #ddd;
+	transition: all 0.2s ease-in-out;
+}
+
+.dropdown:hover .dropdown-content 
+{
+	/*If the dropdown menu is hovered over, this styles the dropdown content*/
+	display: block;
+	transition: all 0.2s ease-in-out;
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
